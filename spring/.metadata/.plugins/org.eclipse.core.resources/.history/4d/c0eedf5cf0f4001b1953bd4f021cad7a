@@ -1,0 +1,6 @@
+package org;
+
+@configuration
+public class SpringConfig {
+
+}

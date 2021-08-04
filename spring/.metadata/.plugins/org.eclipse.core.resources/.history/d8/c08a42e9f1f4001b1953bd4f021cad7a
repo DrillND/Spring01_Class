@@ -1,0 +1,9 @@
+package org;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainConfig {
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext acac = new AnnotationConfigApplicationContext(SpringConfig.class);
+	}
+}

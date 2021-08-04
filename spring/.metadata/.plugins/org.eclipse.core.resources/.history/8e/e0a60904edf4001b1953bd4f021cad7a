@@ -1,0 +1,11 @@
+package org;
+
+public class Main {
+
+	public static void main(String[] args) {
+		AA aa = new AA();
+		System.out.println(aa);
+		AA aa1 = new AA();
+		System.out.println(aa1);
+	}
+}
