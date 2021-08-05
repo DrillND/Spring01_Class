@@ -1,0 +1,12 @@
+package org1;
+
+import java.util.ArrayList;
+
+public class MemberService {
+	public static ArrayList<Member> member_list = new ArrayList<Member>();
+	
+	public void insert(String name, int age) {
+		Member member = new Member();
+		
+	}
+}

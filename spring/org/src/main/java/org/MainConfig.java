@@ -11,5 +11,9 @@ public class MainConfig {
 		
 		System.out.println(a1);
 		System.out.println(a2);
+		
+		acac.close();
+		
+		AA a3 = new AA();
 	}
 }

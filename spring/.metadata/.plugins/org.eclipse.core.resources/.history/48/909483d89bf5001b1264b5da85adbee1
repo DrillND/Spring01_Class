@@ -1,0 +1,7 @@
+package com.mh.org;
+
+public class AA {
+
+	private String a;
+	
+}

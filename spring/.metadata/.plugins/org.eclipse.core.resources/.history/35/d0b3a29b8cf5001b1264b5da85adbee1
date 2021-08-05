@@ -1,0 +1,7 @@
+package org;
+
+public class MainXmlConfig {
+	public static void main(String[] args) {
+		
+	}
+}

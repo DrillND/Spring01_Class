@@ -1,0 +1,9 @@
+package org;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class MainXmlConfig {
+	public static void main(String[] args) {
+		GenericXmlApplicationContext gxac = new GenericXmlApplicationContext("myconf.xml");
+	}
+}
