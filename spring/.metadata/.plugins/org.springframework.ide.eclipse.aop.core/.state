@@ -3,8 +3,9 @@
 <aop-project name="sp5-chap06"/>
 <aop-project name="sp5-chap17"/>
 <aop-project name="sp5-chap12-bv"/>
-<aop-project name="sp5-chap10"/>
+<aop-project name="org"/>
 <aop-project name="sp5-chap07"/>
+<aop-project name="sp5-chap10"/>
 <aop-project name="sp5-chap12-gl"/>
 <aop-project name="sp5-chap08"/>
 <aop-project name="sp5-chap11"/>
@@ -16,7 +17,9 @@
 <aop-project name="sp5-chap03"/>
 <aop-project name="sp5-chap14"/>
 <aop-project name="sp5-chap11-tag"/>
+<aop-project name="org1"/>
 <aop-project name="sp5-chap04"/>
+<aop-project name="20210805"/>
 <aop-project name="sp5-chapc"/>
 <aop-project name="sp5-chap05"/>
 <aop-project name="sp5-chap16"/>

@@ -1,0 +1,25 @@
+스프링
+스프링 객체 담는 통
+getBean함수
+1.생성자방식 변수설정
+2.setter방식 변수설정
+3.Autowird 사용
+
+어노테이션방식 - @Configuration@Bean
+xml방식 <Bean>,ServletContext.Xml
+
+Apache/WAS : 톰캣사용(무료라서)
+Tomcat ServerStart
+1.Server.xml
+ wev.xml
+읽어서 실행
+2. Servlet 태그
+
+20210809 수업
+
+encoding utf8
+1. spring legacy project
+2. spring MVC project
+3. java 1.6 -> 1.8 바꾸기
+build configuration 설정
+project facets java 1.8설정

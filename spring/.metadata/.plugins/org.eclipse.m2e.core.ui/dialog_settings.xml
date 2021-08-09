@@ -20,6 +20,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\KB\Desktop\spring\org1\src\main\java\org1"/>
+			<item value="C:\Users\KB\Desktop\spring\org1\src\main\java"/>
+			<item value="C:\Users\KB\Desktop\spring\org"/>
 			<item value="C:\Users\KB\Desktop\spring\spring5fs-master\sp5-chap02\src\main\java\chap02\Main.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -62,12 +65,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.mh"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="org"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
