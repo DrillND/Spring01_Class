@@ -1,0 +1,21 @@
+package com.mh.org2.cls;
+
+public class BB {
+	private int AA;
+	private int bb;
+	
+	public int getAA() {
+		return AA;
+	}
+	public void setAA(int aA) {
+		AA = aA;
+	}
+	public int getBb() {
+		return bb;
+	}
+	public void setBb(int bb) {
+		this.bb = bb;
+	}
+	
+	
+}

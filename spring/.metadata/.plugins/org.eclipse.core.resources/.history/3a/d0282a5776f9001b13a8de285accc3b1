@@ -1,0 +1,23 @@
+package com.mh.org2.cls;
+
+public class AA {
+	private int aa;
+	private int bb;
+	
+	public int getAa() {
+		return Aa;
+	}
+	public void setAa(int aa) {
+		aa = aa;
+	}
+	public int getBb() {
+		return bb;
+	}
+	public void setBb(int bb) {
+		this.bb = bb;
+	}
+	
+	
+	
+	
+}
