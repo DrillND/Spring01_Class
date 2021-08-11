@@ -70,6 +70,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="org20210810"/>
 			<item value="org20210809"/>
 		</list>
 		<list key="projectNameTemplate">

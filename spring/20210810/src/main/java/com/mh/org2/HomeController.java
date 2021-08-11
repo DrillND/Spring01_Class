@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,11 +17,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.mh.org2.cls.AA;
 import com.mh.org2.cls.BB;
+/*
+ * web.xml내용에
+ * servlet-context.xml 내용을 읽는게 연결되어져있고
+ * 
+ * InternalResourceViewResolver
+ * Web-INF/views/
+ * 
+ * jsp로 연결되어져있어서..
+ * 
+ * HomeController에서 requestMapping 설정하고
+ * jsp 파일생성
+ */
 
 /**
  * Handles requests for the application home page.
  */
 @Controller
+//@Component 위랑 같은 역할
 public class HomeController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
