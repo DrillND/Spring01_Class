@@ -44,8 +44,13 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/delete", method = RequestMethod.GET)
-	public String bb(Model model) {
+	public String delete(Model model) {
 		return "delete";
+	}
+	
+	@RequestMapping(value = "/update", method = RequestMethod.GET)
+	public String update(Model model) {
+		return "update";
 	}
 	
 	@RequestMapping(value = "/cc", method = RequestMethod.GET)

@@ -16,7 +16,7 @@ public class DeleteProcController {
 
 	// 싱글톤 통 안에 들어감
 	@RequestMapping(value = "/deleteproc", method = RequestMethod.POST)
-	public String insertproc(Model model, String dpara1) {
+	public String deleteproc(Model model, String dpara1) {
 		dbm.deletetest(dpara1);
 		return "deleteproc";
 	}
