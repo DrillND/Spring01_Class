@@ -10,10 +10,10 @@
 <aop-project name="sp5-chapc-boot"/>
 <aop-project name="org20210809"/>
 <aop-project name="20210811(Practice)"/>
-<aop-project name="sp5-chap14"/>
-<aop-project name="sp5-chap03"/>
-<aop-project name="sp5-chap10"/>
 <aop-project name="sp5-chap07"/>
+<aop-project name="sp5-chap10"/>
+<aop-project name="sp5-chap03"/>
+<aop-project name="sp5-chap14"/>
 <aop-project name="sp5-chap12-gl"/>
 <aop-project name="sp5-chap11-tag"/>
 <aop-project name="org1"/>
