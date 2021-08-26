@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!-- 태그라이브러리 forEach문 사용하기 위한 태그 -->
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+table, tr {
+	border: 1px solid black;
+}
+</style>
+
+</head>
+<body>
+	<h1>list</h1>
+	<br> ${aa}
+	<br> ${alist}
+	<br>
+
+	<c:forEach items="${alist}" var="dto">
+	${dto}<br>
+	</c:forEach>
+	<br>
+
+	<div>
+		<table>
+			<tr>
+				<th>idx</th>
+				<th>id</th>
+				<th>pw</th>
+				<th>age</th>
+				<th>gender</th>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
