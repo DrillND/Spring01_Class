@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	/* *은 모든 태그 */
+}
+
+#root, html, body {
+	height: 100%;
+	width: 100%;
+	/*r g b  */
+	background-color: #0022cc;
+	color: #fff; /* rgb 모두 섞으면 하얀색 */
+	/* 255-> ff  */
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.container {
+	width: 1200px;
+	height: 640px;
+	background-color: #fff;
+}
+
+
+
+.left_panel {
+	width: 45%;
+	height: 50%;
+}
+
+.right_panel {
+	width: 55%;
+	height: 50%;
+}

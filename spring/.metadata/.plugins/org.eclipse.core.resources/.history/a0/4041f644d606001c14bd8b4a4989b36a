@@ -1,0 +1,9 @@
+@charset "UTF-8";
+#root,html,body{
+	height: 100%;
+	width: 100%;
+	/*r b g  */
+	background-color: #0022cc;
+	color: #fff;
+	
+}

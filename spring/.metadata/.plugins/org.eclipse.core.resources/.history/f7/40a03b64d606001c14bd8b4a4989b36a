@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#root,html,body{
+	height: 100%;
+	width: 100%;
+	/*r g b  */
+	background-color: #0022cc;
+	color: #fff; /* rgb 모두 섞으면 하얀색 */
+	/* 255-> ff  */
+	
+}
