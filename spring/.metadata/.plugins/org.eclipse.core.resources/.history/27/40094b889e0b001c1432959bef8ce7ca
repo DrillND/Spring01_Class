@@ -1,0 +1,19 @@
+package com.mh.mocom.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.mh.mocom.dto.MemberDto;
+
+@Controller
+public class ChartController {
+	
+	@RequestMapping(value = "/testjson", method = RequestMethod.POST)
+	public String testjson() {
+
+		return "";
+	}
+}

@@ -1,0 +1,44 @@
+package com.mh.mocom.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.mh.mocom.dao.MemberDao;
+import com.mh.mocom.dto.MemberDto;
+
+@Controller
+public class LoginController {
+
+	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
+
+	/*
+	 * 불필요한 import 나 변수 선언을 없애는 단축키도 있다.
+	 * 
+	 * 바로 ctrl + shift + O ! 한반에 다 없애준다.
+	 */
+
+	@Autowired
+	MemberDao dao;
+
+	@RequestMapping(value = "/loginchk", method = RequestMethod.POST)
+	public String loginchk(MemberDto dto) {
+		/*
+		 * login check mybatis sqllog
+		 */
+
+		int ret = dao.chklogin(dto);
+
+		if (ret == 1) {
+			return "chart";
+		} 
+		
+		else {
+			return "redirect:/";
+		}
+	}
+
+}

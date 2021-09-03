@@ -1,0 +1,18 @@
+package com.mh.mocom.dao;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mh.mocom.dto.MemberDto;
+
+public class MemberDao {
+
+	@Autowired
+	SqlSession sqlsession;
+	
+	public int chklogin(MemberDto dto) {
+		sqlsession.selectOne("member.loginchk",dto);
+		return 0;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.mh.mocom.dao;
+
+import com.mh.mocom.dto.MemberDto;
+
+public class MemberDao {
+
+	public int chklogin(MemberDto dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
