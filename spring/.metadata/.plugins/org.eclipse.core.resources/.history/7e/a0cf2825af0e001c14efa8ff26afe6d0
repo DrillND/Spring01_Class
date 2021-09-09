@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!--
+ 옛날 레이아웃배치
+ 1.postion
+ 2.float:left overflow:hidden
+ 최근 레이아웃배치 ie 10이하에서는 적용 안됨 -> 국가기간홈페이지...
+ 1.flex
+ 2.grid
+
+  -->
+
+<style type="text/css">
+.root{
+
+}
+.suba{
+
+}
+
+.subb{
+
+}
+</style>
+</head>
+<body>
+	<div class="root">
+		<div class="suba">
+			<div class="subb"></div>
+
+		</div>
+	</div>
+</body>
+</html>

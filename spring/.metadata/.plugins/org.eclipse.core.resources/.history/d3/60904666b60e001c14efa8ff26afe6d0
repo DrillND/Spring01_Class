@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+	/* 기본 마진 패딩 주는 것 */
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.root, body, html {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	background-color: yellow;
+}
+
+.container {
+	background-color: green;
+}
+
+.footer {
+	background-color: gray;
+}

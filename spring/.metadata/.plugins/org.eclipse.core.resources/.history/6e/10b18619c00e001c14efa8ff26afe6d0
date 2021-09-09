@@ -1,0 +1,5 @@
+package com.mh.mocom.dao;
+
+public class BoardDao {
+
+}

@@ -1,0 +1,21 @@
+package com.mh.mocom.dao;
+
+import java.awt.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class BoardDao {
+
+	@Autowired
+	SqlSession sqlsession;
+
+	public List<BoardDto> selectlist() {
+		List<BoardDto> list = sqlsession.selectList("board.select");
+		return list;
+
+	}
+
+}

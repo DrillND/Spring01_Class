@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mocom&apos; to &apos;20210909_mocom72&apos;" description="Rename resource &apos;mocom&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mocom" name="20210909_mocom72" stamp="1631148957701" updateReferences="true"/>
+</session>
