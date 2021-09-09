@@ -7,6 +7,7 @@
 <aop-project name="20210809"/>
 <aop-project name="20210810"/>
 <aop-project name="20210826_01"/>
+<aop-project name="20210909_mocom72"/>
 <aop-project name="org"/>
 <aop-project name="20210902_mocom3"/>
 <aop-project name="org20210810"/>
@@ -18,4 +19,5 @@
 <aop-project name="20210830_mocom2"/>
 <aop-project name="20210827_01_delete"/>
 <aop-project name="20210827_mocom"/>
+<aop-project name="20210906_mocom5"/>
 </aop-reference-model>
